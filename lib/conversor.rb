@@ -13,6 +13,19 @@ class Conversor
 			'nove'
 		]
 	end
+	def self.onze_ate_dezenove
+		[
+			'onze',
+			'doze',
+			'treze',
+			'quatorze',
+			'quinze',
+			'dezesseis',
+			'dezessete',
+			'dezoito',
+			'dezenove'
+		]
+	end
 	def self.dezenas
 		[
 			'dez',
@@ -38,18 +51,5 @@ class Conversor
 			'oitocentos',
 			'novecentos'
 		]
-	end
-	def self.onze_ate_dezenove
-		[
-			'onze',
-			'doze',
-			'treze',
-			'quatorze',
-			'quinze',
-			'dezesseis',
-			'dezessete',
-			'dezoito',
-			'dezenove'
-		]
-	end
+	end	
 end
